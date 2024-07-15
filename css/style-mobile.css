@@ -1,0 +1,268 @@
+@media screen and (max-width: 1227px){
+    .Texto-en-fixture{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .Texto{
+        font-size: 4.5em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Div-container-img {
+        width: 940px;
+    } 
+
+    .Video iframe{
+        width: 650px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1227px){
+    .Texto-en-fixture{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 944px){
+    .Div-container-img {
+        width: 840px;
+    } 
+    
+    .Texto{
+        font-size: 4em;
+    }
+
+}
+
+@media screen and (max-width: 840px){
+    .Div-container-img {
+        width: 768px;
+    } 
+
+    .Texto{
+        font-size: 3.5em;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .Div-container-img {
+        width: 650px;
+    }
+    
+    .Texto{
+        font-size: 3em;
+    }
+
+    .Video iframe{
+            width: 500px;
+            height: 350px;
+        }
+
+    .image-container{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-container img{
+        width: 350px;
+        height: 300px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+
+    .Fixture{
+        font-size: 16px;
+    }
+
+    .Texto-en-fixture{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    
+    .image-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 670px){
+    
+    table{
+        font-size: 10px;
+    }
+    
+    .Texto-en-fixture{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .Div-container-img {
+        width: 550px;
+    }
+
+    .Texto{
+        font-size: 2.5em;
+    }
+
+}
+
+@media screen and (max-width: 608px){
+    footer{
+        font-size: 11px;
+    };
+
+}
+
+@media screen and (max-width: 570px){
+    .PadreBotones{
+        font-size: 8px;
+    } 
+}
+
+@media screen and (max-width: 550px){
+    .Div-container-img {
+        width: 425px;
+    }
+
+    .Texto{
+        font-size: 2em;
+        margin-top: 10px;
+    }
+
+    .Video iframe{
+        width: 400px;
+        height: 300px;
+    }
+
+    table{
+        width: 75vw;
+    }
+
+    .Fixture{
+        justify-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "fixture1"
+        "text1"
+        "fixture2"
+        "text2"
+        "fixture3"
+        "text3";
+    }
+        .Fixture01{
+            grid-area: fixture1;
+        }
+
+       .Fix-texto01{
+            grid-area: text1;
+        }
+
+        .Fixture02{
+            grid-area: fixture2;
+        }
+
+        .Fix-texto02{
+            grid-area: text2;
+        }
+
+        .Fixture03{
+            grid-area: fixture3;
+        }
+
+        .Fix-texto03{
+            grid-area: text3;
+        }
+
+        .Texto-en-fixture{
+            width: 75vw;
+            text-align: center;
+            margin: 0;
+            padding: 5px;
+        }
+    }
+
+@media screen and (max-width: 425px) {
+
+    .Div-container-img {
+        width: 375px;
+    }
+    
+    .Texto{
+        font-size: 1.5em;
+    }
+
+    .Video iframe{
+        width: 350px;
+        height: 200px;
+    }
+
+    .Texto-principal{
+        font-size: 12px;
+    }
+
+    .image-container img{
+        width: 250px
+    }
+
+    footer{
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .Div-container-img {
+        width: 320px;
+    }
+
+    .Video iframe{
+        width: 280px;
+        height: 180px;
+    }
+
+    footer{
+        font-size: 8px;
+    }
+
+    
+}
+
+@media screen and (max-width: 320px){
+
+    .PadreBotones{
+        height: 30px;
+    }
+
+    a{
+        padding: 5px;
+        font-size: 8px;
+    }    
+
+    .Div-container-img {
+        width: 320px;
+    }
+
+    }
+
+
+
+
+
+    
