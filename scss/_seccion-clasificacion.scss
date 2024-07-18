@@ -1,0 +1,23 @@
+table {
+    width: 50vw;
+    border-collapse: collapse;
+    th, td {
+        border: 1px solid black ;
+        padding: 8px;
+        background-color: #699bb4;   
+    }
+}
+
+.Fixture{
+    display: flex;
+    margin: 2vw;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.Texto-en-fixture {
+    margin: 15px;
+    width: 50vw;
+}
+

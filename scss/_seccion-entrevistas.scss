@@ -1,0 +1,38 @@
+.img-entrevistas{
+    @include diseño-img;
+    padding: 0;
+    width: 40vw;
+}
+
+
+.entrevista-container {
+    width: 85vw;
+    display: grid;
+    margin: auto;
+    margin-bottom: 5vh;
+    gap: 15px;
+    grid-template-areas:
+      "titulo img"
+      "texto img";
+  }
+
+  .jugador {
+    grid-area: titulo;
+    font-size: 4em;
+    text-decoration: underline solid white 4px;
+    text-underline-offset: 10px;
+  }
+  
+  .resumen {
+    grid-area: texto;
+  }
+  
+  .boton {
+    grid-area: img;
+  }
+
+
+span{
+    color: #699bb4;
+}
+

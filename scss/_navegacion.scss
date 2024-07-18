@@ -1,0 +1,16 @@
+nav{
+    margin-bottom: 1.5vh;
+    .PadreBotones {
+        display: flex;
+        height: 8vh;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style-type: none;
+        .Botones{
+            display: block;
+            border: 1px solid white;
+            border-radius: 20px;
+            padding: 8px;
+        }
+    }
+}

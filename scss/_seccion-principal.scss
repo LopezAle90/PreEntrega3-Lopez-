@@ -1,0 +1,22 @@
+.Video iframe{
+    padding-top: 1vh;
+    border-radius: 4vh;
+    width: 70%;
+    height: 100vh;
+
+}
+
+.Texto-principal{
+    margin: 1%;
+    padding: 1%;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        @include diseño-img;
+    }
+}
+

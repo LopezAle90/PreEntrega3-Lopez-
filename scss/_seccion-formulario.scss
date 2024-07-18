@@ -1,0 +1,29 @@
+#suscripcion
+{
+    margin-bottom: 10vh;
+    font-size: 1.5em;
+}
+
+form{
+    margin-bottom: 5vh;
+}
+
+input{
+    background-color: #699bb4;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-right: 2vw;
+}
+
+select{
+    @extend input;
+}
+
+button{
+    @extend input;
+    padding: 10px;
+}
+
+#spotify{
+    margin-bottom: 6vh;
+}

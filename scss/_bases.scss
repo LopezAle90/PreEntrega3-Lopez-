@@ -1,0 +1,36 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    overflow-x: hidden;
+    font-size: 1em;
+
+}
+
+.DivContainer{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+    img{
+        width: 95%;
+        border-radius: 4vh;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .Texto{
+        text-align:center;
+        font-size: 5em;
+    }
+}
+
+

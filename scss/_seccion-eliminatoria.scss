@@ -1,0 +1,42 @@
+.banderas-container{
+    margin-top: 10vh;
+}
+
+.result{
+    font-size: 8em;
+}
+
+.Grid-container{
+    display: grid;
+    align-items: center;
+    margin-top: 5vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "arg resultarg contra resultcontra"
+}
+
+.arg{
+    grid-area: "arg";
+}
+
+.contra{
+    grid-area: "contra";
+}
+
+.resultarg{
+    grid-area: "resultarg";
+}
+
+.resultcontra{
+    grid-area: "resultcontra";
+}
+
+.banderas{
+    width:300px;
+    height:300px;
+}
+
+.relato{
+    margin-top: 10vh;
+    padding: 2vh;
+}
