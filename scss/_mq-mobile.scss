@@ -1,0 +1,143 @@
+/*Vista Mobile*/
+
+@media screen and (max-width: 425px) {
+    
+     /*Seccion-footer*/
+
+    .PadreBotones {
+        justify-content: space-around;
+    }
+
+     /*Seccion-principal*/
+
+    .DivContainer .Texto {
+        font-size: 1.4em;
+    }
+
+    .Video iframe {
+        width: 250px;
+        height: 150px;
+
+    }
+
+    #Texto-principal {
+        font-size: 0.6em;
+    }
+
+    .image-container {
+        grid-template-columns: 1fr;
+        img{
+            width: 80vw;
+        }
+    }
+
+     /*Seccion-eliminatoria*/
+
+    .banderas-container{
+        margin-top: 3px;
+    }
+
+    .banderas{
+        width:90px;
+        height:90px;
+    }
+
+    .result{
+        width: 40px;
+        font-size: 2em;
+    
+    }
+
+    .relato{
+        font-size: 10px;
+        margin-top: 1.5vh;
+    }
+
+     /*Seccion-entrevistas*/
+
+    .entrevista-container{
+        grid-template-areas:
+        "titulo"
+        "img"
+        "texto";
+    }
+
+    .img-entrevistas{
+        width: 70vw;
+        height: 40vh;
+    }
+
+     /*Seccion-suscripcion*/
+
+    #suscripcion{
+        font-size: 12px;
+    }
+
+    form{
+        display: grid;
+        gap:10px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    label{
+        justify-self: right;
+    }
+
+    input{
+        width: 120px;
+    }
+
+    button{
+        justify-self: center;
+    }
+
+    #suscr{
+        justify-self: right;
+    }
+
+    #borrar{
+        justify-self: left;
+    }
+
+    select{
+        height: 16px;
+        font-size: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 410px){
+
+    /*Seccion-footer*/
+
+    footer{
+        font-size: 0.5em;
+    }
+
+     /*Seccion-clasificacion*/
+
+    table{
+        font-size: 11px;
+    }
+
+    .Texto-en-fixture{
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    
+     /*Seccion-footer*/
+
+    nav {
+        width: 80vw;
+        margin: auto;
+        font-size: 0.5em;
+
+        .PadreBotones .Botones {
+            padding: 3px;
+        }
+    }
+}

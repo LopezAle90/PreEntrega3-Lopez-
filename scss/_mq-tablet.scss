@@ -1,0 +1,213 @@
+/*Vista Tablet*/
+
+@media screen and (max-width: 768px) {
+
+    /*Seccion-footer*/
+
+    nav {
+        font-size: 0.6em;
+
+        .PadreBotones .Botones {
+            padding: 6px;
+        }
+    }
+
+    /*Seccion-principal*/
+
+    .DivContainer .Texto {
+        font-size: 3em;
+    }
+
+    .Video iframe {
+        width: 500px;
+        height: 300px;
+
+    }
+
+    .image-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        img {
+            height: 50vh;
+            margin: auto;
+        }
+    }
+
+    /*Seccion-clasificacion*/
+
+    table {
+        width: 70vw;
+    }
+
+    .Texto-en-fixture {
+        width: 70vw;
+    }
+
+    .Fixture {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .Fixture02 {
+        grid-template-areas:
+            "fixture"
+            "texto";
+    }
+
+    #Fixt02 {
+        grid-area: fixture;
+    }
+
+    #Fix-texto02 {
+        grid-area: texto;
+    }
+
+    /*Seccion-eliminatoria*/
+
+    .banderas {
+        width: 130px;
+        height: 130px;
+    }
+
+    .result {
+        width: 75px;
+        font-size: 2.5em;
+
+    }
+
+    .relato {
+        font-size: 12px;
+        margin-top: 3vh;
+    }
+
+    /*Seccion-entrevistas*/
+
+    .img-entrevistas {
+        width: 40vw;
+        height: 60vh;
+    }
+
+    .jugador {
+        font-size: 2em;
+        text-underline-offset: 5px;
+    }
+
+    .resumen {
+        font-size: 12px;
+    }
+
+    /*Seccion-suscripcion*/
+
+    #suscripcion {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 14px;
+        justify-self: right;
+
+    }
+
+    input {
+        width: 120px;
+        height: 10;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100px;
+        height: 20px;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    select {
+        width: 140px;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    #suscr{
+        justify-self: right;
+        margin: 0;
+    }
+
+    #spotify {
+        height: 100px;
+        margin-bottom: 2vh;
+    }
+
+}
+
+
+@media screen and (max-width: 670px) {
+
+    /*Seccion-footer*/
+
+    footer {
+        font-size: 0.7em;
+    }
+
+    /*Seccion-principal*/
+
+    .DivContainer .Texto {
+        font-size: 2em;
+    }
+
+    .Video iframe {
+        width: 350px;
+        height: 200px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    /*Seccion-entrevistas*/
+
+    .img-entrevistas {
+        width: 35vw;
+        height: 40vh;
+    }
+
+    .jugador {
+        font-size: 1.4em;
+        text-underline-offset: 3px;
+    }
+
+    .resumen {
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    /*Seccion-suscrpicion*/
+
+    label {
+        font-size: 12px;
+    }
+
+    input {
+        width: 90px;
+        height: 10;
+        margin-right: 1px;
+        font-size: 11px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    select {
+        width: 130px;
+        font-size: 11px;
+    }
+
+}

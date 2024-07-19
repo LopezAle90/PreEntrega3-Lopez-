@@ -5,7 +5,11 @@
 }
 
 form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
     margin-bottom: 5vh;
+    font-size: 20px;
 }
 
 input{
@@ -22,6 +26,11 @@ select{
 button{
     @extend input;
     padding: 10px;
+}
+
+.botones-susc:hover{
+    background-color: #395461;
+    transition: 0.2s;
 }
 
 #spotify{

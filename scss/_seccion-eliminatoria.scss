@@ -3,13 +3,16 @@
 }
 
 .result{
-    font-size: 8em;
+    width: 150px;
+    font-size: 4em;
+    margin: auto;
 }
 
 .Grid-container{
     display: grid;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 2vh;
+    gap: 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "arg resultarg contra resultcontra"
@@ -32,11 +35,13 @@
 }
 
 .banderas{
-    width:300px;
-    height:300px;
+    width:230px;
+    height:230px;
+    margin: auto;
 }
 
 .relato{
     margin-top: 10vh;
     padding: 2vh;
 }
+
