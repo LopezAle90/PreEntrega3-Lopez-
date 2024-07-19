@@ -1,4 +1,4 @@
-.Video iframe{
+.Video iframe {
     padding-top: 1vh;
     padding-bottom: 20px;
     border-radius: 40px;
@@ -7,18 +7,18 @@
 
 }
 
-.Texto-principal{
+.Texto-principal {
     margin: 1%;
     padding: 1%;
 }
 
-.image-container{
+.image-container {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
+
+    img {
         @include diseño-img;
     }
-}
-
+} 

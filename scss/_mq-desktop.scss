@@ -1,7 +1,7 @@
 /*Vista Desktop*/
 
 @media screen and (max-width: 1024px) {
-    
+
     /*Seccion-principal*/
 
     .DivContainer .Texto {
@@ -15,17 +15,17 @@
 
     /*Seccion-clasificacion*/
 
-    table{
+    table {
         font-size: 14px;
     }
 
-    .Texto-en-fixture{
+    .Texto-en-fixture {
         font-size: 14px;
     }
 
     /*Seccion-suscripcion*/
 
-    #suscripcion{
+    #suscripcion {
         font-size: 1em;
         margin-bottom: 4vh;
 
@@ -33,11 +33,11 @@
 
 }
 
-@media screen and (max-width: 928px){
+@media screen and (max-width: 928px) {
 
     /*Seccion-entrevistas*/
 
-    .jugador{
+    .jugador {
         font-size: 3em;
         text-underline-offset: 5px;
 
@@ -45,20 +45,20 @@
     }
 }
 
-@media screen and (max-width: 902px){
+@media screen and (max-width: 902px) {
 
     /*Seccion-clasificacion*/
 
-    .Texto-en-fixture{
+    .Texto-en-fixture {
         font-size: 12px;
     }
-  
+
 }
 
 @media screen and (max-width: 860px) {
-    
+
     /*Seccion-principal*/
-    
+
     .DivContainer .Texto {
         font-size: 3.5em;
     }

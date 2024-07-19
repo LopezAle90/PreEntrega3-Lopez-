@@ -1,10 +1,9 @@
-#suscripcion
-{
+#suscripcion {
     margin-bottom: 10vh;
     font-size: 1.5em;
 }
 
-form{
+form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
@@ -12,27 +11,27 @@ form{
     font-size: 20px;
 }
 
-input{
+input {
     background-color: #699bb4;
     border: 2px solid white;
     border-radius: 20px;
     margin-right: 2vw;
 }
 
-select{
+select {
     @extend input;
 }
 
-button{
+button {
     @extend input;
     padding: 10px;
 }
 
-.botones-susc:hover{
+.botones-susc:hover {
     background-color: #395461;
     transition: 0.2s;
 }
 
-#spotify{
+#spotify {
     margin-bottom: 6vh;
 }

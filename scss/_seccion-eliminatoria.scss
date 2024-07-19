@@ -1,47 +1,46 @@
-.banderas-container{
+.banderas-container {
     margin-top: 10vh;
 }
 
-.result{
+.result {
     width: 150px;
     font-size: 4em;
     margin: auto;
 }
 
-.Grid-container{
+.Grid-container {
     display: grid;
     align-items: center;
     margin-top: 2vh;
     gap: 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "arg resultarg contra resultcontra"
+        "arg resultarg contra resultcontra"
 }
 
-.arg{
+.arg {
     grid-area: "arg";
 }
 
-.contra{
+.contra {
     grid-area: "contra";
 }
 
-.resultarg{
+.resultarg {
     grid-area: "resultarg";
 }
 
-.resultcontra{
+.resultcontra {
     grid-area: "resultcontra";
 }
 
-.banderas{
-    width:230px;
-    height:230px;
+.banderas {
+    width: 230px;
+    height: 230px;
     margin: auto;
 }
 
-.relato{
+.relato {
     margin-top: 10vh;
     padding: 2vh;
 }
-

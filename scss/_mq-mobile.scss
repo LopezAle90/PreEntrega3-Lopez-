@@ -1,14 +1,14 @@
 /*Vista Mobile*/
 
 @media screen and (max-width: 425px) {
-    
-     /*Seccion-footer*/
+
+    /*Seccion-footer*/
 
     .PadreBotones {
         justify-content: space-around;
     }
 
-     /*Seccion-principal*/
+    /*Seccion-principal*/
 
     .DivContainer .Texto {
         font-size: 1.4em;
@@ -26,80 +26,81 @@
 
     .image-container {
         grid-template-columns: 1fr;
-        img{
+
+        img {
             width: 80vw;
         }
     }
 
-     /*Seccion-eliminatoria*/
+    /*Seccion-eliminatoria*/
 
-    .banderas-container{
+    .banderas-container {
         margin-top: 3px;
     }
 
-    .banderas{
-        width:90px;
-        height:90px;
+    .banderas {
+        width: 90px;
+        height: 90px;
     }
 
-    .result{
+    .result {
         width: 40px;
         font-size: 2em;
-    
+
     }
 
-    .relato{
+    .relato {
         font-size: 10px;
         margin-top: 1.5vh;
     }
 
-     /*Seccion-entrevistas*/
+    /*Seccion-entrevistas*/
 
-    .entrevista-container{
+    .entrevista-container {
         grid-template-areas:
-        "titulo"
-        "img"
-        "texto";
+            "titulo"
+            "img"
+            "texto";
     }
 
-    .img-entrevistas{
+    .img-entrevistas {
         width: 70vw;
         height: 40vh;
     }
 
-     /*Seccion-suscripcion*/
+    /*Seccion-suscripcion*/
 
-    #suscripcion{
+    #suscripcion {
         font-size: 12px;
     }
 
-    form{
+    form {
         display: grid;
-        gap:10px;
+        gap: 10px;
         grid-template-columns: 1fr 1fr;
     }
 
-    label{
+    label {
         justify-self: right;
     }
 
-    input{
+    input {
         width: 120px;
     }
 
-    button{
+    button {
         justify-self: center;
     }
 
-    #suscr{
+    #suscr {
         justify-self: right;
     }
 
-    #borrar{
+    #borrar {
         justify-self: left;
     }
 
-    select{
+    select {
         height: 16px;
         font-size: 10px;
     }
@@ -107,29 +108,29 @@
 
 }
 
-@media screen and (max-width: 410px){
+@media screen and (max-width: 410px) {
 
     /*Seccion-footer*/
 
-    footer{
+    footer {
         font-size: 0.5em;
     }
 
-     /*Seccion-clasificacion*/
+    /*Seccion-clasificacion*/
 
-    table{
+    table {
         font-size: 11px;
     }
 
-    .Texto-en-fixture{
+    .Texto-en-fixture {
         font-size: 11px;
     }
 
 }
 
 @media screen and (max-width: 320px) {
-    
-     /*Seccion-footer*/
+
+    /*Seccion-footer*/
 
     nav {
         width: 80vw;
