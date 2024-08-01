@@ -1,17 +1,11 @@
-.banderas-container {
-    margin-top: 10vh;
-}
-
 .result {
     width: 150px;
-    font-size: 4em;
+    font-size: 90px;
     margin: auto;
 }
 
 .Grid-container {
     display: grid;
-    align-items: center;
-    margin-top: 2vh;
     gap: 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:

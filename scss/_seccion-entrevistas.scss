@@ -16,6 +16,11 @@
   height: 75vh;
 }
 
+.img-entrevistas:hover {
+  transform: scale(0.9);
+  transition: 0.2s;
+}
+
 .jugador {
   grid-area: titulo;
   align-self: flex-end;

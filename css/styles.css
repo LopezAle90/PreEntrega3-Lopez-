@@ -8,7 +8,7 @@
   text-align: center;
   text-decoration: none;
   overflow-x: hidden;
-  font-size: 1em;
+  font-size: 25px;
 }
 
 .DivContainer {
@@ -17,10 +17,11 @@
   grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1%;
+  margin-bottom: 50px;
 }
 .DivContainer img {
   width: 95%;
+  height: 450px;
   border-radius: 4vh;
   display: block;
   margin: 0 auto;
@@ -29,7 +30,7 @@
 }
 .DivContainer .Texto {
   text-align: center;
-  font-size: 5em;
+  font-size: 80px;
 }
 
 nav {
@@ -38,7 +39,7 @@ nav {
 nav .PadreBotones {
   display: flex;
   height: 8vh;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   list-style-type: none;
 }
@@ -47,6 +48,9 @@ nav .PadreBotones .Botones {
   border: 1px solid white;
   border-radius: 20px;
   padding: 8px;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: 16px;
 }
 
 .Video iframe {
@@ -80,6 +84,7 @@ nav .PadreBotones .Botones {
 footer {
   border-top: solid white 1px;
   padding: 1%;
+  font-size: 16px;
 }
 
 .Botones:hover {
@@ -89,9 +94,11 @@ footer {
 
 table {
   width: 600px;
+  height: 200px;
   border-collapse: collapse;
 }
-table th, table td {
+table th,
+table td {
   border: 1px solid black;
   padding: 8px;
   background-color: #699bb4;
@@ -99,31 +106,24 @@ table th, table td {
 
 .Fixture {
   display: flex;
-  margin: 2vw;
+  margin: 1vw;
   align-items: center;
-  font-size: 18px;
+  justify-content: center;
 }
 
 .Texto-en-fixture {
-  font-size: 16px;
   margin: 15px;
   width: 600px;
 }
 
-.banderas-container {
-  margin-top: 10vh;
-}
-
 .result {
   width: 150px;
-  font-size: 4em;
+  font-size: 90px;
   margin: auto;
 }
 
 .Grid-container {
   display: grid;
-  align-items: center;
-  margin-top: 2vh;
   gap: 0;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas: "arg resultarg contra resultcontra";
@@ -175,6 +175,11 @@ table th, table td {
   padding: 0;
   width: 40vw;
   height: 75vh;
+}
+
+.img-entrevistas:hover {
+  transform: scale(0.9);
+  transition: 0.2s;
 }
 
 .jugador {
@@ -231,10 +236,19 @@ button {
 }
 
 /*Vista Desktop*/
+@media screen and (max-width: 1440px) {
+  /*Seccion-clasificacion*/
+  th, td {
+    font-size: 20px;
+  }
+  .Texto-en-fixture {
+    font-size: 20px;
+  }
+}
 @media screen and (max-width: 1024px) {
   /*Seccion-principal*/
   .DivContainer .Texto {
-    font-size: 4em;
+    font-size: 64px;
   }
   .Video iframe {
     width: 700px;
@@ -245,25 +259,31 @@ button {
     font-size: 14px;
   }
   .Texto-en-fixture {
-    font-size: 14px;
+    font-size: 18px;
   }
   /*Seccion-suscripcion*/
   #suscripcion {
-    font-size: 1em;
+    font-size: 16px;
     margin-bottom: 4vh;
   }
 }
 @media screen and (max-width: 928px) {
   /*Seccion-entrevistas*/
   .jugador {
-    font-size: 3em;
+    font-size: 48px;
     text-underline-offset: 5px;
   }
 }
 @media screen and (max-width: 902px) {
   /*Seccion-clasificacion*/
+  table {
+    height: 180px;
+  }
+  th, td {
+    font-size: 18px;
+  }
   .Texto-en-fixture {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 860px) {
@@ -274,15 +294,20 @@ button {
 }
 /*Vista Tablet*/
 @media screen and (max-width: 768px) {
-  /*Seccion-footer*/
+  /*Seccion-nav*/
   nav {
-    font-size: 0.6em;
+    font-size: 13px;
   }
   nav .PadreBotones .Botones {
-    padding: 6px;
+    padding: 9px;
+    margin-left: 1%;
+    margin-right: 1%;
   }
   /*Seccion-principal*/
-  .DivContainer .Texto {
+  .DivContainer img {
+    height: 250px;
+  }
+  .DivContainer img .Texto {
     font-size: 3em;
   }
   .Video iframe {
@@ -299,10 +324,10 @@ button {
   }
   /*Seccion-clasificacion*/
   table {
-    width: 70vw;
+    width: 90vw;
   }
   .Texto-en-fixture {
-    width: 70vw;
+    width: 90vw;
   }
   .Fixture {
     display: grid;
@@ -325,10 +350,10 @@ button {
   }
   .result {
     width: 75px;
-    font-size: 2.5em;
+    font-size: 65px;
   }
   .relato {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 3vh;
   }
   /*Seccion-entrevistas*/
@@ -425,11 +450,19 @@ button {
 }
 /*Vista Mobile*/
 @media screen and (max-width: 425px) {
-  /*Seccion-footer*/
-  .PadreBotones {
-    justify-content: space-around;
+  /*Seccion-nav*/
+  nav {
+    font-size: 10px;
+  }
+  nav .PadreBotones .Botones {
+    padding: 6px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
   }
   /*Seccion-principal*/
+  .DivContainer img {
+    height: 150px;
+  }
   .DivContainer .Texto {
     font-size: 1.4em;
   }
@@ -446,6 +479,10 @@ button {
   .image-container img {
     width: 80vw;
   }
+  /*Seccion-clasificacion*/
+  .Texto-en-fixture {
+    font-size: 15px;
+  }
   /*Seccion-eliminatoria*/
   .banderas-container {
     margin-top: 3px;
@@ -456,10 +493,10 @@ button {
   }
   .result {
     width: 40px;
-    font-size: 2em;
+    font-size: 30px;
   }
   .relato {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 1.5vh;
   }
   /*Seccion-entrevistas*/
@@ -505,22 +542,22 @@ button {
     font-size: 0.5em;
   }
   /*Seccion-clasificacion*/
-  table {
-    font-size: 11px;
+  th, td {
+    font-size: 16px;
   }
   .Texto-en-fixture {
-    font-size: 11px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 320px) {
-  /*Seccion-footer*/
+  /*Seccion-nav*/
   nav {
-    width: 80vw;
-    margin: auto;
-    font-size: 0.5em;
+    font-size: 9px;
   }
   nav .PadreBotones .Botones {
-    padding: 3px;
+    padding: 5px;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
   }
 }
 

@@ -1,5 +1,6 @@
 table {
     width: 600px;
+    height: 200px;
     border-collapse: collapse;
 
     th,
@@ -12,14 +13,12 @@ table {
 
 .Fixture {
     display: flex;
-    margin: 2vw;
+    margin: 1vw;
     align-items: center;
-    font-size: 18px;
-
+    justify-content: center;
 }
 
 .Texto-en-fixture {
-    font-size: 16px;
     margin: 15px;
     width: 600px;
 }

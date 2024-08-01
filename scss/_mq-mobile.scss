@@ -2,16 +2,29 @@
 
 @media screen and (max-width: 425px) {
 
-    /*Seccion-footer*/
+    /*Seccion-nav*/
 
-    .PadreBotones {
-        justify-content: space-around;
+    nav {
+        font-size: 10px;
+
+        .PadreBotones .Botones {
+            padding: 6px;
+            margin-left: 0.5%;
+            margin-right: 0.5%;
+
+        }
     }
+
 
     /*Seccion-principal*/
 
-    .DivContainer .Texto {
-        font-size: 1.4em;
+    .DivContainer{
+        img{
+            height: 150px;
+        }
+        .Texto {
+            font-size: 1.4em;
+        }
     }
 
     .Video iframe {
@@ -32,6 +45,12 @@
         }
     }
 
+    /*Seccion-clasificacion*/
+
+    .Texto-en-fixture {
+        font-size: 15px;
+    }
+
     /*Seccion-eliminatoria*/
 
     .banderas-container {
@@ -45,12 +64,12 @@
 
     .result {
         width: 40px;
-        font-size: 2em;
+        font-size: 30px;
 
     }
 
     .relato {
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 1.5vh;
     }
 
@@ -118,27 +137,28 @@
 
     /*Seccion-clasificacion*/
 
-    table {
-        font-size: 11px;
+    th,td {
+        font-size: 16px;
     }
 
     .Texto-en-fixture {
-        font-size: 11px;
+        font-size: 14px;
     }
 
 }
 
 @media screen and (max-width: 320px) {
 
-    /*Seccion-footer*/
+    /*Seccion-nav*/
 
     nav {
-        width: 80vw;
-        margin: auto;
-        font-size: 0.5em;
+        font-size: 9px;
 
         .PadreBotones .Botones {
-            padding: 3px;
+            padding: 5px;
+            margin-left: 0.3%;
+            margin-right: 0.3%;
+
         }
     }
 }
