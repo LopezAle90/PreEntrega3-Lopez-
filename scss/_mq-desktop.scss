@@ -1,16 +1,64 @@
 /*Vista Desktop*/
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px) {
     /*Seccion-clasificacion*/
 
-    th,td{
+    th,
+    td {
         font-size: 20px;
-    }  
-      
+    }
+
     .Texto-en-fixture {
         font-size: 20px;
     }
-    
+
+    /*Seccion-entrevistas*/
+
+    .entrevista-container {
+        margin: 0 25px 25px 50px;
+    }
+
+    .img-entrevistas {
+        height: 450px;
+    }
+
+    .jugador {
+        width: 500px;
+        justify-self: center;
+    }
+
+    .resumen {
+        width: 500px;
+        justify-self: center;
+    }
+
+
+
+    .resumen,
+    span {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 1205px) {
+
+    .img-entrevistas {
+        width: 500px;
+    }
+
+
+    .jugador {
+        width: 400px;
+        justify-self: center;
+        font-size: 60px;
+    }
+
+    .resumen {
+        width: 400px;
+        justify-self: center;
+        font-size: 20px;
+    }
 }
 
 
@@ -47,29 +95,69 @@
 
 }
 
+@media screen and (max-width: 1000px) {
+
+    .entrevista-container {
+        gap:10px;
+    }
+
+
+    .img-entrevistas {
+        width: 400px;
+    }
+
+
+    .jugador {
+        width: 400px;
+        justify-self: center;
+        font-size: 60px;
+    }
+
+    .resumen {
+        width: 400px;
+        justify-self: center;
+        font-size: 20px;
+    }
+}
+
+
 @media screen and (max-width: 928px) {
 
     /*Seccion-entrevistas*/
 
-    .jugador {
-        font-size: 48px;
-        text-underline-offset: 5px;
-
-
+    .img-entrevistas {
+        width: 300px;
+        height: 380px;
     }
+    
+    .jugador {
+        width: 380px;
+        text-underline-offset: 5px;
+    }
+
+    .resumen{
+        width: 350px;
+        font-size: 15px;
+    }
+
+    span {
+        font-size: 15px;
+      }
 }
 
 @media screen and (max-width: 902px) {
 
     /*Seccion-clasificacion*/
 
-    table{
+    table {
         height: 180px;
     }
-    th,td{
+
+    th,
+    td {
         font-size: 18px;
-    }    
-    
+    }
+
     .Texto-en-fixture {
         font-size: 16px;
     }

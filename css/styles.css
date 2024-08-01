@@ -157,10 +157,8 @@ table td {
 }
 
 .entrevista-container {
-  width: 85vw;
   display: grid;
-  margin: auto;
-  margin-bottom: 5vh;
+  margin: 0 50px 50px 50px;
   gap: 25px;
   grid-template-areas: "titulo img" "texto img";
 }
@@ -173,8 +171,8 @@ table td {
   border-radius: 8vh;
   padding-bottom: 20px;
   padding: 0;
-  width: 40vw;
-  height: 75vh;
+  width: 600px;
+  height: 150px;
 }
 
 .img-entrevistas:hover {
@@ -185,13 +183,14 @@ table td {
 .jugador {
   grid-area: titulo;
   align-self: flex-end;
-  font-size: 4em;
+  font-size: 70px;
   text-decoration: underline solid white 4px;
   text-underline-offset: 10px;
 }
 
 .resumen {
   grid-area: texto;
+  font-size: 23px;
 }
 
 .boton {
@@ -238,10 +237,45 @@ button {
 /*Vista Desktop*/
 @media screen and (max-width: 1440px) {
   /*Seccion-clasificacion*/
-  th, td {
+  th,
+  td {
     font-size: 20px;
   }
   .Texto-en-fixture {
+    font-size: 20px;
+  }
+  /*Seccion-entrevistas*/
+  .entrevista-container {
+    margin: 0 25px 25px 50px;
+  }
+  .img-entrevistas {
+    height: 450px;
+  }
+  .jugador {
+    width: 500px;
+    justify-self: center;
+  }
+  .resumen {
+    width: 500px;
+    justify-self: center;
+  }
+  .resumen,
+  span {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1205px) {
+  .img-entrevistas {
+    width: 500px;
+  }
+  .jugador {
+    width: 400px;
+    justify-self: center;
+    font-size: 60px;
+  }
+  .resumen {
+    width: 400px;
+    justify-self: center;
     font-size: 20px;
   }
 }
@@ -267,11 +301,40 @@ button {
     margin-bottom: 4vh;
   }
 }
+@media screen and (max-width: 1000px) {
+  .entrevista-container {
+    gap: 10px;
+  }
+  .img-entrevistas {
+    width: 400px;
+  }
+  .jugador {
+    width: 400px;
+    justify-self: center;
+    font-size: 60px;
+  }
+  .resumen {
+    width: 400px;
+    justify-self: center;
+    font-size: 20px;
+  }
+}
 @media screen and (max-width: 928px) {
   /*Seccion-entrevistas*/
+  .img-entrevistas {
+    width: 300px;
+    height: 380px;
+  }
   .jugador {
-    font-size: 48px;
+    width: 380px;
     text-underline-offset: 5px;
+  }
+  .resumen {
+    width: 350px;
+    font-size: 15px;
+  }
+  span {
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 902px) {
@@ -279,7 +342,8 @@ button {
   table {
     height: 180px;
   }
-  th, td {
+  th,
+  td {
     font-size: 18px;
   }
   .Texto-en-fixture {
@@ -357,16 +421,21 @@ button {
     margin-top: 3vh;
   }
   /*Seccion-entrevistas*/
+  .entrevista-container {
+    grid-template-areas: "titulo" "img" "texto";
+  }
   .img-entrevistas {
-    width: 40vw;
+    width: 500px;
     height: 60vh;
   }
   .jugador {
-    font-size: 2em;
+    width: 500px;
+    font-size: 50px;
     text-underline-offset: 5px;
   }
   .resumen {
-    font-size: 12px;
+    width: 500px;
+    font-size: 15px;
   }
   /*Seccion-suscripcion*/
   #suscripcion {
@@ -417,16 +486,18 @@ button {
 }
 @media screen and (max-width: 600px) {
   /*Seccion-entrevistas*/
+  .entrevista-container {
+    margin: auto;
+  }
   .img-entrevistas {
-    width: 35vw;
-    height: 40vh;
+    width: 400px;
   }
   .jugador {
-    font-size: 1.4em;
+    width: 400px;
     text-underline-offset: 3px;
   }
   .resumen {
-    font-size: 9px;
+    width: 400px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -504,8 +575,16 @@ button {
     grid-template-areas: "titulo" "img" "texto";
   }
   .img-entrevistas {
-    width: 70vw;
+    width: 350px;
     height: 40vh;
+  }
+  .jugador {
+    width: 350px;
+    font-size: 40px;
+  }
+  .resumen, span {
+    width: 350px;
+    font-size: 12px;
   }
   /*Seccion-suscripcion*/
   #suscripcion {
@@ -547,6 +626,18 @@ button {
   }
   .Texto-en-fixture {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .img-entrevistas {
+    width: 300px;
+  }
+  .jugador {
+    font-size: 35px;
+    width: 300px;
+  }
+  .resumen, span {
+    width: 300px;
   }
 }
 @media screen and (max-width: 320px) {

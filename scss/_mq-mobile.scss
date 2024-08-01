@@ -83,8 +83,18 @@
     }
 
     .img-entrevistas {
-        width: 70vw;
+        width: 350px;
         height: 40vh;
+    }
+
+    .jugador{
+        width: 350px;
+        font-size: 40px;
+    }
+
+    .resumen, span{
+        width: 350px;
+        font-size: 12px;
     }
 
     /*Seccion-suscripcion*/
@@ -143,6 +153,22 @@
 
     .Texto-en-fixture {
         font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .img-entrevistas {
+        width: 300px;
+    }
+
+    .jugador{
+        font-size: 35px;
+        width: 300px;
+    }
+
+    .resumen, span{
+        width: 300px;
     }
 
 }

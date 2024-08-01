@@ -1,8 +1,6 @@
 .entrevista-container {
-  width: 85vw;
   display: grid;
-  margin: auto;
-  margin-bottom: 5vh;
+  margin: 0 50px 50px 50px;
   gap: 25px;
   grid-template-areas:
     "titulo img"
@@ -12,8 +10,8 @@
 .img-entrevistas {
   @include diseño-img;
   padding: 0;
-  width: 40vw;
-  height: 75vh;
+  width: 600px;
+  height: 150px;
 }
 
 .img-entrevistas:hover {
@@ -24,13 +22,14 @@
 .jugador {
   grid-area: titulo;
   align-self: flex-end;
-  font-size: 4em;
+  font-size: 70px;
   text-decoration: underline solid white 4px;
   text-underline-offset: 10px;
 }
 
 .resumen {
   grid-area: texto;
+  font-size: 23px;
 }
 
 .boton {
