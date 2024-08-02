@@ -4,11 +4,12 @@
 
     /*Seccion-nav*/
 
-    header{
+    header {
         height: 250px;
     }
-    nav{
-        .PadreBotones{
+
+    nav {
+        .PadreBotones {
             .Botones {
                 width: 60px;
                 font-size: 8px;
@@ -19,10 +20,11 @@
 
     /*Seccion-principal*/
 
-    .DivContainer{
-        img{
+    .DivContainer {
+        img {
             height: 150px;
         }
+
         .Texto {
             font-size: 25px;
         }
@@ -88,23 +90,24 @@
         height: 40vh;
     }
 
-    .jugador{
+    .jugador {
         width: 350px;
         font-size: 40px;
     }
 
-    .resumen, span{
+    .resumen,
+    span {
         width: 350px;
         font-size: 12px;
     }
 
     /*Seccion-suscripcion*/
 
-    #Navegacion-suscr{
+    #Navegacion-suscr {
         height: 100px;
     }
 
-    form{
+    form {
         gap: 10px;
     }
 
@@ -113,7 +116,9 @@
         margin: 0 15px 20px 15px;
     }
 
-    label, input, button{
+    label,
+    input,
+    button {
         width: 145px;
         height: 25px;
         font-size: 14px;
@@ -121,13 +126,13 @@
 
     }
 
-    select{
+    select {
         font-size: 10px;
     }
 
     /*Seccion-footer*/
 
-    footer{
+    footer {
         font-size: 9px;
     }
 
@@ -137,7 +142,8 @@
 
     /*Seccion-clasificacion*/
 
-    th,td {
+    th,
+    td {
         font-size: 16px;
     }
 
@@ -148,10 +154,10 @@
 }
 
 @media screen and (max-width: 375px) {
-    
-     /*Seccion-principal*/
 
-     .DivContainer{
+    /*Seccion-principal*/
+
+    .DivContainer {
         .Texto {
             font-size: 20px;
         }
@@ -163,26 +169,27 @@
         width: 300px;
     }
 
-    .jugador{
+    .jugador {
         font-size: 35px;
         width: 300px;
     }
 
-    .resumen, span{
+    .resumen,
+    span {
         width: 300px;
     }
 
-    footer{
+    footer {
         font-size: 8px;
     }
 
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
 
-    nav{
-        .PadreBotones{
+    nav {
+        .PadreBotones {
             .Botones {
                 overflow-y: hidden;
                 text-align: center;
