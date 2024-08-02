@@ -5,22 +5,27 @@
     /*Seccion-nav*/
 
     nav {
-        font-size: 13px;
-
-        .PadreBotones .Botones {
+        .PadreBotones {
             padding: 9px;
-            margin-left: 1%;
-            margin-right: 1%;
 
+            .Botones {
+                width: 90px;
+                font-size: 12px;
+                margin: 0 10px;
+            }
         }
     }
 
+
     /*Seccion-principal*/
 
-    .DivContainer img{
-        height: 250px;
+    .DivContainer {
+        img {
+            height: 250px;
+        }
+
         .Texto {
-            font-size: 3em;
+            font-size: 40px;
         }
     }
 
@@ -115,43 +120,38 @@
 
     /*Seccion-suscripcion*/
 
+    #Navegacion-suscr {
+        height: 150px;
+        margin-bottom: 0;
+    }
+
     #suscripcion {
-        font-size: 14px;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    form {
+        font-size: 18px;
     }
 
     label {
-        font-size: 14px;
-        justify-self: right;
-
+        width: 300px;
+        font-size: 18px;
     }
 
     input {
-        width: 120px;
-        height: 10;
-        font-size: 14px;
-    }
-
-    button {
-        width: 100px;
-        height: 20px;
-        font-size: 14px;
-        padding: 0;
+        width: 300px;
+        font-size: 18px;
     }
 
     select {
-        width: 140px;
-        height: 20px;
-        font-size: 12px;
+        font-size: 16px;
     }
 
-    #suscr {
-        justify-self: right;
-        margin: 0;
-    }
+    /*Seccion-footer*/
 
-    #spotify {
-        height: 100px;
-        margin-bottom: 2vh;
+    footer {
+        font-size: 11px;
     }
 
 }
@@ -159,16 +159,10 @@
 
 @media screen and (max-width: 670px) {
 
-    /*Seccion-footer*/
-
-    footer {
-        font-size: 0.7em;
-    }
-
     /*Seccion-principal*/
 
     .DivContainer .Texto {
-        font-size: 2em;
+        font-size: 36px;
     }
 
     .Video iframe {
@@ -177,15 +171,39 @@
 
     }
 
+    /*Seccion-suscripcion*/
+
+    #Navegacion-suscr {
+        height: 120px;
+    }
+
+    label,
+    input,
+    button {
+        width: 250px;
+    }
+
 
 }
 
 
 @media screen and (max-width: 600px) {
 
+    /*Seccion-navegacion*/
+
+    nav {
+        .PadreBotones {
+            .Botones {
+                width: 70px;
+                font-size: 10px;
+                margin: 0 10px;
+            }
+        }
+    }
+
     /*Seccion-entrevistas*/
 
-    .entrevista-container{
+    .entrevista-container {
         margin: auto;
     }
 
@@ -204,28 +222,35 @@
 
 }
 
-@media screen and (max-width: 550px) {
+/*Seccion-suscripcion*/
 
-    /*Seccion-suscrpicion*/
+#suscripcion {
+    font-size: 20px;
+}
 
-    label {
-        font-size: 12px;
+label,
+input,
+button {
+    width: 200px;
+}
+
+@media screen and (max-width: 500px) {
+
+    /*Seccion-principal*/
+
+    .DivContainer .Texto {
+        font-size: 30px;
     }
 
-    input {
-        width: 90px;
-        height: 10;
-        margin-right: 1px;
-        font-size: 11px;
-    }
+}
 
+
+@media screen and (max-width: 444px) {
+
+    label,
+    input,
     button {
-        font-size: 12px;
-    }
-
-    select {
-        width: 130px;
-        font-size: 11px;
+        width: 180px;
     }
 
 }

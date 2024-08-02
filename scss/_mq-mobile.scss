@@ -4,17 +4,18 @@
 
     /*Seccion-nav*/
 
-    nav {
-        font-size: 10px;
-
-        .PadreBotones .Botones {
-            padding: 6px;
-            margin-left: 0.5%;
-            margin-right: 0.5%;
-
+    header{
+        height: 250px;
+    }
+    nav{
+        .PadreBotones{
+            .Botones {
+                width: 60px;
+                font-size: 8px;
+                margin: 0 5px;
+            }
         }
     }
-
 
     /*Seccion-principal*/
 
@@ -23,7 +24,7 @@
             height: 150px;
         }
         .Texto {
-            font-size: 1.4em;
+            font-size: 25px;
         }
     }
 
@@ -99,51 +100,40 @@
 
     /*Seccion-suscripcion*/
 
-    #suscripcion {
-        font-size: 12px;
+    #Navegacion-suscr{
+        height: 100px;
     }
 
-    form {
-        display: grid;
+    form{
         gap: 10px;
-        grid-template-columns: 1fr 1fr;
     }
 
-    label {
-        justify-self: right;
+    #suscripcion {
+        font-size: 14px;
+        margin: 0 15px 20px 15px;
     }
 
-    input {
-        width: 120px;
+    label, input, button{
+        width: 145px;
+        height: 25px;
+        font-size: 14px;
+        margin-right: 10px;
+
     }
 
-    button {
-        justify-self: center;
-    }
-
-    #suscr {
-        justify-self: right;
-    }
-
-    #borrar {
-        justify-self: left;
-    }
-
-    select {
-        height: 16px;
+    select{
         font-size: 10px;
     }
 
+    /*Seccion-footer*/
+
+    footer{
+        font-size: 9px;
+    }
 
 }
 
 @media screen and (max-width: 410px) {
-
-    /*Seccion-footer*/
-
-    footer {
-        font-size: 0.5em;
-    }
 
     /*Seccion-clasificacion*/
 
@@ -158,6 +148,17 @@
 }
 
 @media screen and (max-width: 375px) {
+    
+     /*Seccion-principal*/
+
+     .DivContainer{
+        .Texto {
+            font-size: 20px;
+        }
+    }
+
+
+    /*Seccion-entrevistas*/
     .img-entrevistas {
         width: 300px;
     }
@@ -171,20 +172,27 @@
         width: 300px;
     }
 
+    footer{
+        font-size: 8px;
+    }
+
+
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px){
 
-    /*Seccion-nav*/
-
-    nav {
-        font-size: 9px;
-
-        .PadreBotones .Botones {
-            padding: 5px;
-            margin-left: 0.3%;
-            margin-right: 0.3%;
-
+    nav{
+        .PadreBotones{
+            .Botones {
+                overflow-y: hidden;
+                text-align: center;
+                width: 50px;
+                height: 20px;
+                line-height: 0;
+                font-size: 7px;
+                margin: 2px;
+            }
         }
     }
+
 }
