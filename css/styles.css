@@ -492,8 +492,8 @@ button {
     font-size: 36px;
   }
   .Video iframe {
-    width: 350px;
-    height: 200px;
+    width: 425px;
+    height: 350px;
   }
   /*Seccion-suscripcion*/
   #Navegacion-suscr {
@@ -576,8 +576,8 @@ button {
     font-size: 25px;
   }
   .Video iframe {
-    width: 250px;
-    height: 150px;
+    width: 318px;
+    height: 180px;
   }
   #Texto-principal {
     font-size: 0.6em;
